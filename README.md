@@ -1,4 +1,4 @@
-# Pi Zero audio photo frame: A Pirate Audio Player
+# Pi zero audio photo frame: A Pirate Audio Player
 
 This project turns a **Raspberry Pi Zero 2 W** and a **Pimoroni Pirate Audio Mini Speaker** into a dedicated, wall-mounted device for playing a single audio file.
 
