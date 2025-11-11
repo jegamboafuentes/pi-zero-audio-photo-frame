@@ -1,0 +1,40 @@
+#!/usr/bin/env python3
+
+import os
+from gpiozero import OutputDevice, Button
+from signal import pause
+# --- Settings ---
+BUTTON_PIN = 5      # This is the 'A' button
+AMP_PIN = 25        # The amplifier enable pin
+AUDIO_FILE = "/home/admin/Music/audio.wav"
+
+# We must tell mpg123 to use the correct sound card: "hw:1,0"
+PLAYER_COMMAND = f"aplay -D hw:1,0 {AUDIO_FILE}"
+# ----------------
+
+# --- Turn on the Amplifier ---
+print("Turning on amplifier (GPIO 25)...")
+amp = OutputDevice(AMP_PIN)
+amp.on()
+# -----------------------------
+
+print("Audio Player Ready!")
+print(f"Waiting for press on button A (pin {BUTTON_PIN})...")
+print("Press Ctrl+C to exit.")
+
+button = Button(BUTTON_PIN)
+
+def on_press():
+    print("Button A Pressed! Playing audio...")
+    os.system(PLAYER_COMMAND)
+    print("Done playing. Waiting for next press.")
+
+# Tell the button to run our function when pressed
+button.when_pressed = on_press
+
+# Keep the script running forever
+try:
+    pause()
+except KeyboardInterrupt:
+    print("\nExiting.")
+    amp.off() # Turn off amp when we quit

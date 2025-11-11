@@ -1,0 +1,5 @@
+# Ignore the main audio file
+audio.wav
+
+# Ignore all linaPic images
+linaPic*.png
