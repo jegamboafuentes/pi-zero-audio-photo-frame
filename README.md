@@ -1,10 +1,11 @@
 # Pi zero audio photo frame: A Pirate Audio Player
 
+
 This project turns a **Raspberry Pi Zero 2 W** and a **Pimoroni Pirate Audio Mini Speaker** into a dedicated, wall-mounted device for playing a single audio file.
 
 It's designed to boot directly into the player, which displays a custom background image. The four buttons are mapped to custom controls for a personal, seamless experience.
 
-
+![image](files/Users/jzhang/Desktop/Isolated.png)
 
 ## 🎵 Features
 
