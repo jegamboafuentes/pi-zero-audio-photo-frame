@@ -5,7 +5,7 @@ This project turns a **Raspberry Pi Zero 2 W** and a **Pimoroni Pirate Audio Min
 
 It's designed to boot directly into the player, which displays a custom background image. The four buttons are mapped to custom controls for a personal, seamless experience.
 
-![image](files/Users/jzhang/Desktop/Isolated.png) 
+![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/B9D36B2B-DCD6-496C-942F-5BCA6A372D0B.jpg?raw=true) 
 
 ## 🎵 Features
 
@@ -29,11 +29,14 @@ It's designed to boot directly into the player, which displays a custom backgrou
 * 5V Power Supply
 * A Mac or PC with an SD card reader for initial setup
 
+![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/IMG_5702.jpeg?raw=true) 
 ---
 
 ## 🚀 Installation Instructions
 
 These instructions will guide you from a blank SD card to a fully working device.
+
+![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/IMG_5706.jpeg?raw=true) 
 
 ### Part 1: Flash the SD Card
 
@@ -248,3 +251,8 @@ This is the final step to make your project a true appliance. We will use a `sys
     ```
     sudo reboot
     ```
+
+
+![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/IMG_5724.jpeg?raw=true) 
+
+![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/C8D5C51E-19DF-41CC-B670-8D995179DFD5.JPG?raw=true) 
