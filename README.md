@@ -5,6 +5,8 @@ This project turns a **Raspberry Pi Zero 2 W** and a **Pimoroni Pirate Audio Min
 
 It's designed to boot directly into the player, which displays a custom background image. The four buttons are mapped to custom controls for a personal, seamless experience.
 
+I wrote a post about this project here: [Link](https://medium.com/@jegamboafuentes/i-built-a-memory-box-with-a-raspberry-pi-to-play-my-girlfriends-audio-on-demand-551b7f9ed7cd).
+
 ![image](https://github.com/jegamboafuentes/pi-zero-audio-photo-frame/blob/main/project%20assets/project_photos/B9D36B2B-DCD6-496C-942F-5BCA6A372D0B.jpg?raw=true) 
 
 ## 🎵 Features
